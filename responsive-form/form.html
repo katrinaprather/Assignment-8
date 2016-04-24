@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><title>Register</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><div class="menu"></div><div class="menu"></div><div class="menu"></div></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="blog.html">Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<form>
+			<div id="wrapper-form">
+				<h2>Register Now!</h2>
+				<div class="label">
+					<label class="form-items">Name:</label>
+					<input type="text" name="fullname" placeholder="First and Last Name" id="txtbox" required>
+				</div>
+				<div class="label">
+					<label class="form-items">Email:</label>
+					<input type="email" name="email" placeholder="hello@gmail.com" id="txtbox" required>
+				</div>
+				<div class="label">
+					<label class="form-items">Phone:</label>
+					<input type="tel" name="phone" placeholder="415-123-4567" id="txtbox" required>
+				</div>
+					
+				<label class="form-items" id="states">State:</label>
+				<div>
+					<select required>
+						<optgroup label="states">
+							<option value="AL">Alabama</option>
+							<option value="AK">Alaska</option>
+							<option value="AZ">Arizona</option>
+							<option value="AR">Arkansas</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DE">Delaware</option>
+							<option value="DC">District Of Columbia</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="IA">Iowa</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="ME">Maine</option>
+							<option value="MD">Maryland</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MS">Mississippi</option>
+							<option value="MO">Missouri</option>
+							<option value="MT">Montana</option>
+							<option value="NE">Nebraska</option>
+							<option value="NV">Nevada</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NY">New York</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VT">Vermont</option>
+							<option value="VA">Virginia</option>
+							<option value="WA">Washington</option>
+							<option value="WV">West Virginia</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WY">Wyoming</option>
+						</optgroup>
+					</select>
+				</div>
+
+				<div class="label">
+					<label class="form-items">Password:</label>
+					<input type="password" name="password" id="txtbox" required>
+				</div>
+				
+				<fieldset>
+					<legend>
+						<label>Which service are you intersted in?</label>
+					</legend>
+					<ul class="radio" class="form-items">
+						<li class="fieldgroup">
+							<input type="radio" name="service" value="relaxing" align="baseline" class="services" id="relaxing" required>
+							<label for="relaxing">Relaxing</label>
+						</li>
+						<li class="fieldgroup">
+							<input type="radio" name="service" value="email" align="baseline" class="services" id="email">
+							<label for="email">Email</label>
+						</li>
+						<li class="fieldgroup">
+							<input type="radio" name="service" value="phone" align="baseline" class="services" id="phone">
+							<label for="phone">Phone</label>
+						</li>
+					</ul>
+				</fieldset>
+
+				<div>
+					<label>
+						<input type="checkbox" name="agreeterms" value="yes" required>I agree to the terms</input>
+					</label>
+				</div>
+				<br>
+
+				<div id="submit">
+					<input type="submit" name="submit" value="Register Now!">
+				</div>
+			</div><!--wrapper-->
+		</form>
+			
+
+		<aside id="bottom-cta">
+			<a class="button blue" href="#">Sign Up Now!</a>
+		</aside>
+
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/relaxr-menu.js"></script>
+	</body>
+</html>
